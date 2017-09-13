@@ -4,11 +4,12 @@
   "description": "Node.js based XML Sitemap generator for Telly.com",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Petr Konupek <petr@telly.com>",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.15.4",
     "phantomjs-sitemap-generator": "^0.1.6"
   }
 }
