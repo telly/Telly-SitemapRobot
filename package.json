@@ -1,0 +1,14 @@
+{
+  "name": "telly-sitemaprobot",
+  "version": "1.0.0",
+  "description": "Node.js based XML Sitemap generator for Telly.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Petr Konupek <petr@telly.com>",
+  "license": "ISC",
+  "dependencies": {
+    "phantomjs-sitemap-generator": "^0.1.6"
+  }
+}
